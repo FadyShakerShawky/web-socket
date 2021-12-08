@@ -51,6 +51,17 @@ return [
             // 'enable_client_messages' => false,
             // 'enable_statistics' => true,
         ],
+        [
+            'id' => "19972022",
+            'name' => "admed",
+            'key' => "45sdc4s54dcs4ss5dd45s",
+            'secret' => "45sdc4s54dcs4ss5dd45s",
+			//'cluster' => env('PUSHER_APP_CLUSTER'),
+            // 'path' => env('PUSHER_APP_PATH'),
+			// 'path' => env('PUSHER_APP_PATH'),
+            'enable_client_messages' => true,
+            'enable_statistics' => true,
+        ],
     ],
 
     /*
