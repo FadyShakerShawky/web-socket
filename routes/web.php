@@ -23,3 +23,7 @@ Route::get('/event', function () {
 	return "Event has been sent!";
 
 });
+
+Auth::routes(['register' => false]);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
